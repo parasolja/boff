@@ -10,11 +10,12 @@
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, 0.125);
     border-radius: 0.25rem;
-    padding-bottom: 50px;
     padding-top: 50px;
 
     
 }
+
+
 .card > hr {
     margin-right: 0;
     margin-left: 0;
@@ -30,28 +31,29 @@
 }
 
 .img-one {
-    background-image: url('https://images.pexels.com/photos/3540047/pexels-photo-3540047.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-image: url('/assets/img/tech/image3.jpg');
     background-size: cover;
     background-position: center;
     height: 400px;
+
 }
 
 .img-two {
-    background-image: url('https://images.pexels.com/photos/3540047/pexels-photo-3540047.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-image: url('/assets/img/tech/image4.jpg');
     background-size: cover;
     background-position: center;
     height: 400px;
 }
 
 .img-three {
-    background-image: url('https://images.pexels.com/photos/3540047/pexels-photo-3540047.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-image: url('/assets/img/tech/image7.jpg');
     background-size: cover;
     background-position: center;
     height: 400px;
 }
 
 .img-four {
-    background-image: url('https://images.pexels.com/photos/3540047/pexels-photo-3540047.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-image: url('/assets/img/tech/image3.jpg');
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -88,8 +90,29 @@
 .card-text-wrap {
     background-color:#027697;
     margin-top: 220px;
-    height: 180px;
+    height: 250px;
     border-radius: 0.25rem;
+    padding: 25px;
+}
+
+.card-margin {
+    margin-bottom: 100px;
+}
+
+@media (min-width: 0px) and (max-width: 550px){
+
+    .card-text-wrap {
+        background-color:#027697;
+        margin-top: 220px;
+        height: 320px;
+        border-radius: 0.25rem;
+        padding: 25px;
+    }
+
+    .card-margin {
+        margin-bottom: 150px;
+    }
+
 }
 .card-link:hover {
     text-decoration: none;

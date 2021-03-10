@@ -4579,9 +4579,9 @@
  }
  .jumbotron {
      padding: 2rem 1rem;
-     margin-bottom: 2rem;
-     background-color: #e9ecef;
+     background-repeat: no-repeat;
      border-radius: 0.3rem;
+     text-align: center;
  }
  @media (min-width: 576px) {
      .jumbotron {
@@ -4592,6 +4592,7 @@
      padding-right: 0;
      padding-left: 0;
      border-radius: 0;
+
  }
  .alert {
      position: relative;
@@ -9551,25 +9552,29 @@
  }
  .clean-block.clean-hero {
      position: relative;
-     text-align: center;
+     text-align: left;
      background-size: cover;
      background-repeat: no-repeat;
      display: -ms-flexbox;
      display: flex;
-     -ms-flex-align: center;
+     -ms-flex-align: left;
      align-items: center;
      -ms-flex-pack: center;
-     justify-content: center;
+     justify-content: left;
      padding-bottom: 0;
+
+
  }
 
  .clean-block.clean-hero .text {
-     max-width: 700px;
+     max-width: 800px;
      font-weight: 600;
      color: #fff;
      z-index: 2;
-     padding: 40px 15px;
+     padding: 50px 50px;
      text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+     background-color: #3276da;
+     border-radius: 0.3rem;
  }
  .clean-block.clean-hero h2 {
      margin-bottom: 30px;
@@ -9589,6 +9594,7 @@
      width: 30px;
      text-align: center;
      color: #3b99e0;
+
  }
  .feature-box h4 {
      font-weight: 600;
@@ -10310,10 +10316,7 @@
          padding-top: 80px;
      }
      .clean-block.clean-hero {
-         min-height: 680px;
-     }
-     .clean-block.clean-hero .text {
-         padding: 0;
+         min-height: 750px;
      }
      .clean-block.clean-block.clean-gallery .item {
          margin-bottom: 40px;

@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="assets/css/smoothproducts.css">
     <link rel="stylesheet" href="assets/css/cards.css">
     <link rel="stylesheet" href="assets/css/program.css">
+    <link rel="stylesheet" href="assets/css/form.css">
+    
 </head>
 
 <body>
@@ -178,7 +180,12 @@
             </div>
           </section>
         <!-- NEWS SECTION -->
-        
+        <form action="#" class="js-form ">
+            <span class="form__text form__text--start js-starting-text">Say hi !</span>
+            <input type="email" name="mail" placeholder="E-mail" required>
+            <button type="submit">Send</button>
+            <span class="form__text form__text--end js-ending-text">Thank you !</span>
+          </form>
 		<!-- NEWS SECTION ENDS -->
         <section class="clean-block slider dark">
             <div class="container-fluid">
@@ -283,9 +290,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js" integrity="sha512-1dalHDkG9EtcOmCnoCjiwQ/HEB5SDNqw8d4G2MKoNwjiwMNeBAkudsBCmSlMnXdsH8Bm0mOd3tl/6nL5y0bMaQ==" crossorigin="anonymous"></script>
     <script src="assets/js/smoothproducts.min.js"></script>
     <script src="assets/js/script.js"></script>
     <script src="assets/js/theme.js"></script>
+    <script src="assets/js/form.js"></script>
 </body>
 
 </html>

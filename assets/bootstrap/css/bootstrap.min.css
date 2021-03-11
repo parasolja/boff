@@ -67,6 +67,11 @@
      color: #212529;
      text-align: left;
      background-color: #fff;
+     width:100%;
+     height:100%;
+     overflow-x: hidden;
+
+   
  }
  [tabindex="-1"]:focus:not(:focus-visible) {
      outline: 0 !important;
@@ -1889,6 +1894,7 @@
      border: 1px solid #ced4da;
      border-radius: 0.25rem;
      transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+     margin: 10px 0px 20px 0px;
  }
  @media (prefers-reduced-motion: reduce) {
      .form-control {
@@ -4578,16 +4584,11 @@
      box-shadow: 0 0 0 0.2rem rgba(52, 58, 64, 0.5);
  }
  .jumbotron {
-     padding: 2rem 1rem;
      background-repeat: no-repeat;
      border-radius: 0.3rem;
      text-align: center;
  }
- @media (min-width: 576px) {
-     .jumbotron {
-         padding: 4rem 2rem;
-     }
- }
+
  .jumbotron-fluid {
      padding-right: 0;
      padding-left: 0;
@@ -7179,7 +7180,7 @@
  }
  .mb-1,
  .my-1 {
-     margin-bottom: 0.25rem !important;
+     margin-bottom: 0.5rem !important;
  }
  .ml-1,
  .mx-1 {
@@ -9513,6 +9514,13 @@
  .clean-block {
      padding-bottom: 50px;
  }
+
+ .clean-fluid .block-heading {
+    padding-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
  .clean-block.dark {
      background-color: #f6f6f6;
  }
@@ -9566,8 +9574,15 @@
 
  }
 
+ .features {
+     background-image: url(/assets/img/tech/booking.jpg);
+     background-size: cover;
+     background-position: center;
+
+ }
+
  .clean-block.clean-hero .text {
-     max-width: 800px;
+     max-width: 700px;
      font-weight: 600;
      color: #fff;
      z-index: 2;
@@ -9584,7 +9599,7 @@
      margin-bottom: 30px;
  }
  .feature-box {
-     padding: 15px 20px 15px 70px;
+     padding: 15px 20px;
  }
  .feature-box .icon {
      font-size: 30px;

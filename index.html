@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Home - Brand</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
@@ -37,7 +37,7 @@
         <section class="clean-block clean-info dark">
             <div class="container">
                 <div class="block-heading">
-                    <h2 class="text-info">PROGRAM</h2>
+                    <h2 class="text-info">HIGHLIGHTS</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
                 </div>
                     <div class="row">
@@ -89,42 +89,209 @@
                 </div>
         </section>
         <section class="clean-block features">
-            <div class="container">
+            <div class="container">      
                 <div class="block-heading">
                     <h2 class="text-info">Program and Booking</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-md-5 feature-box"><i class="icon-star icon"></i>
-                        <h4>Bootstrap 4</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
+                <div class="row">
+                    <div class="col-md-12 feature-box">
+                        <form>
+                            <div class="form-group">
+                                <div class="row">
+                                    <div class="col">
+                                        <input type="text" class="form-control"
+                                            placeholder="First name*" id="submit-firstname" />
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" class="form-control"
+                                            placeholder="Last name*" id="submit-lastname" />
+                                    </div>
+                                </div>
+                                <div id="headline2"></div>
+                                <input type="email" class="form-control"
+                                    id="submit-email" placeholder="name@example.com" />
+                                <p id="choice">Please choose your day and a film*</p>
+                                <div id="accordion">
+                                    <div class="card-body-accord">
+                                        <div class="card-header">
+                                            <a class="card-link" data-toggle="collapse"
+                                                href="#collapseOne">
+                                                Monday, August 5th
+                                            </a>
+                                        </div>
+                                        <div id="collapseOne" class="collapse"
+                                            data-parent="#accordion">
+                                            <div class="card-body">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox"
+                                                        value="" id="defaultCheck1" />
+                                                    <label class="form-check-label" for="defaultCheck1">
+                                                        6:00 pm,
+                                                        Fantastic Mister
+                                                        Fox (2009)
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox"
+                                                        value="" id="defaultCheck1" />
+                                                    <label class="form-check-label" for="defaultCheck1">
+                                                        8:00 pm, The
+                                                        Hitchhiker's
+                                                        Guide to the Galaxy (2005)
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox"
+                                                        value="" id="defaultCheck1" />
+                                                    <label class="form-check-label" for="defaultCheck1">
+                                                        10:00 pm, The
+                                                        Square
+                                                        (2017)
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body-accord">
+                                        <div class="card-header">
+                                            <a class="collapsed card-link" data-toggle="collapse"
+                                                href="#collapseTwo">
+                                                Tuesday, August 6th
+                                            </a>
+                                        </div>
+                                        <div id="collapseTwo" class="collapse"
+                                            data-parent="#accordion">
+                                            <div class="card-body">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox"
+                                                        value="" id="defaultCheck1" />
+                                                    <label class="form-check-label" for="defaultCheck1">
+                                                        6:00 pm, Isle of
+                                                        Dogs
+                                                        (2018)
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox"
+                                                        value="" id="defaultCheck1" />
+                                                    <label class="form-check-label" for="defaultCheck1">
+                                                        8:00 pm, Moon
+                                                        (2009)
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox"
+                                                        value="" id="defaultCheck1" />
+                                                    <label class="form-check-label" for="defaultCheck1">
+                                                        10:00 pm,
+                                                        High-Rise (2015)
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body-accord">
+                                        <div class="card-header">
+                                            <a class="collapsed card-link" data-toggle="collapse"
+                                                href="#collapseThree">
+                                                Wednesday, August 7th
+                                            </a>
+                                        </div>
+                                        <div id="collapseThree" class="collapse"
+                                            data-parent="#accordion">
+                                            <div class="card-body">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox"
+                                                        value="" id="defaultCheck1" />
+                                                    <label class="form-check-label" for="defaultCheck1">
+                                                        6:00 pm,
+                                                        Moonrise Kingdom
+                                                        (2012)
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox"
+                                                        value="" id="defaultCheck1" />
+                                                    <label class="form-check-label" for="defaultCheck1">
+                                                        8:00 pm, The One
+                                                        I Love
+                                                        (2014)
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox"
+                                                        value="" id="defaultCheck1" />
+                                                    <label class="form-check-label" for="defaultCheck1">
+                                                        10:00 pm, The
+                                                        Hateful
+                                                        Eight (2015)
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card-body-accord">
+                                        <div class="card-header">
+                                            <a class="collapsed card-link" data-toggle="collapse"
+                                                href="#collapseFour">
+                                                Thursday, August 8th
+                                            </a>
+                                        </div>
+                                        <div id="collapseFour" class="collapse"
+                                            data-parent="#accordion">
+                                            <div class="card-body-accord">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox"
+                                                        value="" id="defaultCheck1" />
+                                                    <label class="form-check-label" for="defaultCheck1">
+                                                        6:00 pm,
+                                                        Spirited Away
+                                                        (2001)
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox"
+                                                        value="" id="defaultCheck1" />
+                                                    <label class="form-check-label" for="defaultCheck1">
+                                                        8:00 pm, Ex
+                                                        Machina
+                                                        (2014)
+                                                    </label>
+                                                </div>
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox"
+                                                        value="" id="defaultCheck1" />
+                                                    <label class="form-check-label" for="defaultCheck1">
+                                                        10:00 pm, Stoker
+                                                        (2013)
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary"
+                                id="submit-btn">Submit</button>
+                        </form>
                     </div>
-                    <div class="col-md-5 feature-box"><i class="icon-pencil icon"></i>
-                        <h4>Customizable</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
-                    </div>
-                    <div class="col-md-5 feature-box"><i class="icon-screen-smartphone icon"></i>
-                        <h4>Responsive</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
-                    </div>
-                    <div class="col-md-5 feature-box"><i class="icon-refresh icon"></i>
-                        <h4>All Browser Compatibility</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
-                    </div>
+
                 </div>
             </div>
         </section>
         <!-- NEWS SECTION -->
-        <section>
-                <h2 class="text-info">PROGRAM</h2>
-                <div class=" flex row">
+        <section class="clean-fluid">
+            <div class="block-heading">
+                <h2 class="text-info">NEWS</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in, mattis vitae leo.</p>
+            </div>
+                <div class="row">
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"
 					id="jumbo-pic">
 					<img src="assets/img/tech/background.webp" alt="logo" class="img-fluid" />
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-					<div class="row jumbotron jumbotron-fluid">
-						<div class="container">
 							<div class="list-group">
 								<a href="#"
 									class="list-group-item list-group-item-action flex-column align-items-start">
@@ -169,8 +336,7 @@
 								</a>
 							</div>
 						</div>
-					</div>
-				</div>
+                    </div>
         </div>
         </section>
 			<!-- NEWS SECTION ENDS -->
@@ -278,6 +444,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
     <script src="assets/js/smoothproducts.min.js"></script>
+    <script src="assets/js/script.js"></script>
     <script src="assets/js/theme.js"></script>
 </body>
 

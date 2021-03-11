@@ -1,0 +1,3 @@
+$('#myCollapsible').collapse({
+    toggle: false
+  })

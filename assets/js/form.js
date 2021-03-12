@@ -30,21 +30,8 @@ var Form = {
   
         this._submit.addEventListener('click', function(e) {
           if (!self._isDisabled) {
-            // Si on valide un formulaire le comportement par défaut du 
-            // navigateur sera de soumettre les infos dans les champs
-            // et de recharger la page. Pour finaliser notre animation
-            // on doit empêcher (EN : 'to prevent') le comportement 
-            // par défaut du browser.
+
             e.preventDefault();
-            // En JS, il faut comprendre la délégation d'événement.
-            // Si on intérragit avec un élément, comme un clique sur 
-            // un bouton, alors le click se propage de notre cible, 
-            // le bouton, à tous ses ancêtres (notamment le formulaire).
-            // C'est ce qu'on apelle l'event bubbling.
-            // Hors pour lancer notre animation on clique sur le formulaire.
-            // Si on empêche pas le click de remonter au formulaire on créera
-            // une boucle et le début de notre animation reviendra.
-            // On dit donc à l'événement de stopper sa propagation.
             e.stopPropagation();
   
             self.hideChildren(); 
@@ -55,7 +42,7 @@ var Form = {
       var self = this;
   
       TweenMax.to(self._el, 0.3, {
-        width: '20rem',
+        width: '25rem',
         ease: Expo.easeOut,
         display: 'flex',
         onComplete: function() {
@@ -111,7 +98,7 @@ var Form = {
   
       console.log('close');
       TweenMax.to(self._el, 0.3, {
-        width: '8rem',
+        width: '25rem',
         ease: Expo.easeOut,
         onComplete: function() {
           self.showEndingText();

@@ -8,7 +8,7 @@
     word-wrap: break-word;
     background-color: #fff;
     background-clip: border-box;
-    border: 1px solid rgba(0, 0, 0, 0.125);
+    border: 1px solid #f3f5f8;
     border-radius: 0.25rem;
     padding-top: 100px;
 
@@ -95,7 +95,7 @@
 }
 
 .card-text-wrap {
-    background-color:#027697;
+    background-color:#3276da;
     margin-top: 220px;
     height: 250px;
     border-radius: 0.25rem;
@@ -109,7 +109,7 @@
 @media (min-width: 0px) and (max-width: 550px){
 
     .card-text-wrap {
-        background-color:#027697;
+        background-color:#3276da;
         margin-top: 220px;
         height: 320px;
         border-radius: 0.25rem;

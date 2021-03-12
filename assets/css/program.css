@@ -1,7 +1,7 @@
 .container {
     margin: auto;
     padding: 0 1rem;
-    max-width: 71.25rem;
+    max-width: 100%;
     width: 100%;
   }
   
@@ -604,6 +604,7 @@
        object-fit: cover;
     transform: scale(1);
     transition: all 0.3s ease-in-out;
+    border-radius: 0.25rem;
   }
   img:hover {
     transform: scale(1.05);
